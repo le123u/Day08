@@ -8,7 +8,14 @@ package com.neusoft;
 public class Test01 {
     public static void main(String[] args) {
         Star star = new Star();
-        star.doAnything();
         star.shine();
+        System.out.println("====================");
+        // 多态格式
+        Universe sun = new Sun();
+        sun.doAnything();
+
+        // 向下转型
+        Sun s = (Sun) sun;
+        s.shine();
     }
 }

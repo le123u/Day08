@@ -1,5 +1,5 @@
 package com.neusoft;
 
 public interface Universe {
-    void doAnything();
+    public  abstract void doAnything();
 }
