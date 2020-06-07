@@ -24,4 +24,7 @@ public class Dog extends Animal implements LiveAble,Pet {
     public void method() {
         System.out.println("Dog");
     }
+    public void eat(){
+        System.out.println("汪汪的吃狗粮");
+    }
 }
